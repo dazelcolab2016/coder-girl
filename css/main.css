@@ -1,11 +1,8 @@
-*{outline: 1px solid rgba(255,0,0,0.4);}
 
 .img-fondo{
     background: url(../img/home.jpg);
     background-size: cover;
     text-align: center;
-    
-  
 }
 .frase{
   text-align: center;
