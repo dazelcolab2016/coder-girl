@@ -10,34 +10,38 @@
 </head>
 <body>
 <header>
-    <div class="container">
-         <nav class="navbar navbar-static-top " role="navigation">
-                    <!-- El logotipo y el icono que despliega el menú se agrupan
-                    para mostrarlos mejor en los dispositivos móviles -->
-                    <div class="navbar-header">
-                    
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Desplegar navegación</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img  class="img-responsive size-logo" > Code Girls</a>
-                    </div>
-                    <!-- Agrupar los enlaces de navegación, los formularios y cualquier
-                    otro elemento que se pueda ocultar al minimizar la barra -->
-                    <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Documental</a></li>
-                    <li><a href="#">Hackathon</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
-                    </ul>
-                    </div>
-                    </nav>
-        
-    </div>
+    				<div class="container container-head">
+				<div class="row">
+					<div class="col-md-3 col-sm-12 col-xs-6">
+					    <p>Coder Girl</p>
+					</div>
+					<div class="col-md-9 col-sm-12 col-xs-6">
+						<div class="text-right visible-xs">
+							<button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+						</div>
+
+						<nav class="hidden-xs">
+							<ul class="desktop-menu list-inline text-right">
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Documental</a></li>
+								<li><a href="#">Hackaton</a></li>
+								<li><a href="#">Contacto</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<nav class="visible-xs">
+					<div id="main-navigation" class="collapse">
+						<ul  class="mobile-menu text-right">
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Documental</a></li>
+								<li><a href="#">Hackaton</a></li>
+								<li><a href="#">Contacto</a></li>
+						</ul>
+					</div>
+				</nav>
+        </div>
 </header>
 
 <section>
@@ -58,7 +62,7 @@
 			<div class="container">
 			<h3 class="text-center">VE NUESTRO DOCUMENTAL</h3>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						 <h3 class="text-center">CODE GIRLS</h3>
                       <p>
                          El documental muestra el trabajo de diferentes equipos integrados por chicas de escuelas secundarias(provinientes de estados unidos, Brasil, India y Mexico)que junto con un mentor o una mentora que acompaña su experiencia, disponen de 3 meses para crear un plan de negocios y una aplicacion que resuelva problemas en sus comunidades, en el marco de la competencia Technovation.
@@ -66,7 +70,7 @@
                       </p>
                         <center><img  class="flecha hidden-xs"src="image/flecha.png" alt=""></center>
 					</div> 
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<div class="embed-responsive embed-responsive-16by9">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/cRb5iel-3Ck" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -79,14 +83,14 @@
 		<section class="hackathon">
                <div class="container">
                 <div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<div class="embed-responsive embed-responsive-16by9 ">
                         <div class="img-hack">
 				        
 				        </div>
 						</div>
 					</div>
-					<div class="col-md-6 block-center ">
+					<div class="col-md-6 col-xs-12 block-center ">
 					 <h3 class="text-center">HACKATHON</h3>
                       <p>
                          ¡Participa en nuestra hackathon "love is Respect"!
@@ -106,12 +110,12 @@
 		<section class="contacto">
                <div class="container">
                     <div class="row">
-					    <div class="col-md-7">
+					    <div class="col-md-7 col-xs-12">
 						    <div class="embed-responsive embed-responsive-16by9 img-contact">
                       
 						    </div>
 					    </div>
-					    <div class="col-md-5 block-center ">
+					    <div class="col-md-5 col-xs-12 block-center ">
                             <form action="">
                                  <h3 class="text-center">CONTACTO</h3>
 
