@@ -17,3 +17,46 @@
 .frase h6{
     color: #000;
 }
+.documental h3{
+    text-align: center;
+}
+.documental p{
+    text-align:left;
+}
+.hackathon{
+    background-color: #ffff00;
+}
+.img-hack{
+  width: 560px;
+  height: 250px;
+  margin: 30px;
+  margin-left: 0px;    
+  background-image: url(../img/hackathon.jpg);
+  background-size: 86%;
+  background-repeat: no-repeat;
+    background-color: #fff;
+}
+.block-center{
+    margin-top:30px;
+}
+.img-contact{
+  background-image: url(../img/made_with_code.jpg);
+  background-size: 100%;
+  margin-top: 30px;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+.footer-color{
+    background-color: #4497a3;
+    padding: 30px;
+    color: #fff;
+}
+.text-center small{
+    margin-bottom: 50px;
+}
+.form-group{
+    margin-top: 20px;
+}
+.form-group input,textarea,button{
+    margin-top: 10px;
+}
